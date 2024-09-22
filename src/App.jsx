@@ -8,7 +8,7 @@ function App() {
 
   useEffect(() => {
     const img = new Image();
-    img.src = './assets/heroBg.png'; 
+    img.src = './assets/hero.png'; 
     img.onload = () => {
       setLoaded(true);
     };
