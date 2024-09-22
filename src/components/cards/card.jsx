@@ -14,7 +14,7 @@ export default function Card({title,img,price,isNewArrival}){
      <div onMouseEnter={enterHandler} onMouseLeave={leaveHandler} className="card overflow-hidden flex w-full max-w-[480px]   md:max-w-[406px]  pl-5 bg-[#343435] h-[220px]
       justify-between rounded-md" >
        <div className="car-description flex  flex-col justify-around  text-xl text-[#d6d3d3]">
-          <div className="title  relative flex  h-80  w-[200px] ">
+          <div className="title  relative flex  h-80  w-[10rem] ">
  
          <div className={` duration-[.2s] transition-all top-[40%] absolute ${isHover?"font-normal top-[30px] text-lg":'top-[60%]  font-bold'}`}>{title}</div>
          <div className={`w-[80px] text-sm flex justify-center items-center rounded-lg transition-opacity delay-100  bottom-0 ${isHover?"opacity-1":"opacity-0"} absolute py-1 bg-red-500`}>

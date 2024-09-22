@@ -34,11 +34,11 @@ export default function Cards(){
       }]
 
 return(<>
-<div className='flex flex-col justify-center items-center   flex-wrap w-full gap-5'>
+<div className='flex flex-col justify-center items-center   flex-wrap w-full py-10  gap-2'>
 <div className='text-white text-3xl font-bold mr-auto ml-[20px] '>наш сервис</div>
 
 
-    <div className="cards  flex md:flex-wrap  flex-col md:flex-row   gap-5  items-center md:justify-center overflow-hidden ">
+    <div className="cards  flex md:flex-wrap  flex-col md:flex-row  items-center md:justify-center overflow-hidden gap-2 ">
       {cards.map((e,i)=> <Card key={i}  title={e.title} price={e.price} img={e.img} isNewArrival={e.isNewArrival} />   
       )
       }

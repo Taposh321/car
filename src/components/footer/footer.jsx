@@ -26,44 +26,44 @@ export default function Footer (){
   
             <div className="flex md:flex-1 w-full flex-col gap-5 justify-center items-center">
               <div className="flex w-full justify-center gap-10 py-5">
-                <div className="service-item gap-3 flex flex-col w-full max-w-[200px]">\
+                <div className="service-item gap-3 flex flex-col w-full items-center  max-w-[200px]">\
                   <div className="footerIcon">
                     <img src="./assets/footerIcons/wash.png" alt="Car Wash Equipment" />
                   </div>
-                  <div className="service-des flex flex-col gap-2">
+                  <div className="service-des flex flex-col gap-2 items-center">
                     <div className="font-bold">ОБОРУДОВАНИЕ</div>
                     <div className="text-sm">
                       Автомойка на 2 поста и лучшее итальянское оборудование
                     </div>
                   </div>
                 </div>
-                <div className="service-item gap-3 flex flex-col w-full max-w-[200px]">
+                <div className="service-item gap-3 flex flex-col w-ful items-center max-w-[200px]">
                   <div>
                     <img src="./assets/footerIcons/lift.png" alt="Car Lifts" />
                   </div>
-                  <div className="service-des flex flex-col gap-2">
+                  <div className="service-des flex flex-col gap-2 items-center">
                     <div className="font-bold">ПОДЪЕМНИКИ</div>
                     <div>Рассчитаны на 3,5 и 5 тонн. Поднимем любую машину!</div>
                   </div>
                 </div>
               </div>
               <div className="flex w-full justify-center gap-10">
-                <div className="service-item gap-3 flex flex-col w-full max-w-[200px]">
+                <div className="service-item gap-3 flex flex-col w-full items-center  max-w-[200px]">
                   <div>
                     <img src="./assets/footerIcons/target.png" alt="Competitive Prices" />
                   </div>
-                  <div className="service-des flex flex-col gap-2">
+                  <div className="service-des flex flex-col gap-2 items-center">
                     <div className="font-bold">ЦЕНЫ</div>
                     <div>
                       Лучшие цены и качество на рынке. Довольным будет каждый!
                     </div>
                   </div>
                 </div>
-                <div className="service-item gap-3 flex flex-col w-full max-w-[200px]">
+                <div className="service-item gap-3 flex flex-col w-full items-center  max-w-[200px]">
                   <div>
                     <img src="./assets/footerIcons/Vector.png" alt="Car Painting" />
                   </div>
-                  <div className="service-des flex flex-col gap-2">
+                  <div className="service-des flex flex-col gap-2 items-center">
                     <div className="font-bold">ПОКРАСКА</div>
                     <div>
                       Покрасочная камера Spanesi и магнитный стапель.

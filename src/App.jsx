@@ -17,12 +17,11 @@ function App() {
 
   return (
     <>
-          <div  className="main-container w-full min-h-[100vh] flex flex-col gap-5">
          
 
     {
       loaded?( 
-        <div>
+        <div className='main-container w-full flex flex-col h-full  '>
            <Hero />
         <Cards />
         <Coursel />
@@ -33,7 +32,6 @@ function App() {
      <GridLoader color='white'/>
      </div>
     }
-  </div>
     </>
   )
 }
