@@ -3,6 +3,7 @@ import Hero from './components/hero/hero'
 import Cards from './components/cards/cards'
 import Coursel from './components/coursel/coursel'
 import Footer from './components/footer/footer'
+import { GridLoader } from 'react-spinners'
 function App() {
   const [loaded,setLoaded]=useState(false)
 
@@ -17,16 +18,19 @@ function App() {
 
   return (
     <>
+          <div  className="main-container w-full min-h-[100vh] flex flex-col gap-5">
+
     {
       loaded?( 
-      <div  className="main-container w-full h-full flex flex-col gap-5">
-        <Hero  />
+        <div>
+          <Hero  />
         <Cards />
         <Coursel />
         <Footer />
-      </div>):"Hello"
+        </div>   
+     ):<GridLoader color='white'/>
     }
- 
+  </div>
     </>
   )
 }
