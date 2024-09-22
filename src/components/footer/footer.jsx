@@ -2,7 +2,7 @@ import React from "react";
 export default function Footer (){
     return (
       <>
-        <div className="w-full pl-[20px] pt-[30px] flex flex-col">
+        <div className="w-full pl-[20px] flex flex-col">
           <div className="footer-wrapper w-full bg-red-500 py-5 rounded-lg flex flex-col md:flex-row items-center text-white gap-10">
             <div className="flex flex-col w-full md:flex-1 justify-center items-center">
               <div className="flex flex-col gap-10">
@@ -75,7 +75,7 @@ export default function Footer (){
           </div>
           <div className="flex justify-center py-5 bg-black text-white font-bold">
               <div className="flex gap-5">
-               <a href="http://" target="_black">Github</a>
+               <a href="http://github.com/Taposh321/car" target="_black">Github</a>
               </div>
           </div>
         </div>
