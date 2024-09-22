@@ -3,8 +3,8 @@ import Slider from './slider'
 
 export default function Coursel(){
     return(<>
-    <div className="coursel-container w-full   pl-[20px] flex flex-col ">
-        <div className=' flex flex-col bg-white rounded-lg gap-10 py-10'>
+    <div className="coursel-container w-fulL  flex flex-col ">
+        <div className=' flex flex-col bg-white  gap-10 py-10'>
         <div className=" flex justify-between p-5 rounded-lg ">
     <div className="coursel-heading text-2xl md:text-4xl font-bold">Избранные работы</div> 
       <div className="controls flex overflow-hidden relative p-5 gap-5">

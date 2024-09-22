@@ -38,8 +38,7 @@ return(<>
 <div className='text-white text-3xl font-bold mr-auto ml-[20px] '>наш сервис</div>
 
 
-    <div className="cards md:pl-[20px] flex md:flex-wrap  flex-col md:flex-row   gap-5  items-center md:justify-center ">
-
+    <div className="cards  flex md:flex-wrap  flex-col md:flex-row   gap-5  items-center md:justify-center overflow-hidden ">
       {cards.map((e,i)=> <Card key={i}  title={e.title} price={e.price} img={e.img} isNewArrival={e.isNewArrival} />   
       )
       }
