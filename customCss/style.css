@@ -3,7 +3,7 @@ body{
 }
 /* linear-gradient(to top,black 1%, rgba(255, 255, 255, 0) 9%) */
 .hero-container{
-    background:url('./assets/hero.png') ;
+    background:url('../public/assets/hero.png') ;
     background-position: center center;
     background-size: cover;
 }
