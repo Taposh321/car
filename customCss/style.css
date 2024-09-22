@@ -1,6 +1,4 @@
-body{
-    background-color:#040404;
-}
+
 .hero-container{
     background: linear-gradient(to top,black 1%, rgba(255, 255, 255, 0) 9%),url('./assets/heroBg.png') ;
     background-position: center center;
