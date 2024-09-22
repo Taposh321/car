@@ -9,21 +9,21 @@ function App() {
 
   useEffect(() => {
     const img = new Image();
-    img.src = './assets/hero.png'; 
+    img.src = '/assets/hero.png'; 
     img.onload = () => {
       setLoaded(true);
     };
-    
-  }, []);
+}, []);
 
   return (
     <>
           <div  className="main-container w-full min-h-[100vh] flex flex-col gap-5">
+         
 
     {
       loaded?( 
         <div>
-          <Hero  />
+           <Hero />
         <Cards />
         <Coursel />
         <Footer />

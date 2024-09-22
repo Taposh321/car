@@ -4,9 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faGreaterThan} from '@fortawesome/free-solid-svg-icons'
 export default function Hero (){
 
-
     return (<>
-    <div className="hero-container flex flex-col  h-[100vh] min-h-[500px] w-full  pl-[20px]">
+    <div className="hero-container image-[url] flex flex-col  h-[100vh] min-h-[500px] w-full  pl-[20px]">
     <NavigationBar />
     <div className=' flex  flex-1 items-center'>
       <div className="inner-hero flex flex-col gap-5 max-w-[460px] h-[400px] justify-center">
