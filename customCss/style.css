@@ -1,8 +1,8 @@
-.body{
+body{
     background:black;
 }
 .hero-container{
-    background: linear-gradient(to top,black 1%, rgba(255, 255, 255, 0) 9%),url('assets/heroBg.png') ;
+    background: linear-gradient(to top,black 1%, rgba(255, 255, 255, 0) 9%),url('./assets/heroBg.png') ;
     background-position: center center;
     background-size: cover;
 }
