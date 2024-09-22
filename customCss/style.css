@@ -1,0 +1,37 @@
+body{
+    background-color:#040404;
+}
+.hero-container{
+    background: linear-gradient(to top,black 1%, rgba(255, 255, 255, 0) 9%),url('./assets/heroBg.png') ;
+    background-position: center center;
+    background-size: cover;
+}
+.navLink{
+cursor: pointer;
+padding: 5px 10px;
+border-radius: 5px;
+
+}
+.navLink:hover{
+    transition:  all .5s;
+  background-color: #fff;
+  color: #343434;
+}
+.navLink > .active{
+    background-color: #fff;
+    color: #343434;
+  
+}
+.swiper-button-next, .swiper-button-prev {
+    color: #222020; /* Change the color */
+    border-radius: 50%; /* Make the buttons round */
+    width: 40px;
+    height: 40px;
+    position: relative;
+    transform: scale(.5);
+    
+  }
+
+  
+  
+
