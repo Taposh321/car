@@ -28,7 +28,10 @@ function App() {
         <Coursel />
         <Footer />
         </div>   
-     ):<GridLoader color='white'/>
+     ):
+     <div className='w-full h-[100vh] flex justify-center items-center'>
+     <GridLoader color='white'/>
+     </div>
     }
   </div>
     </>
